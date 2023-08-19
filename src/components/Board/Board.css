@@ -1,0 +1,39 @@
+.board {
+    width: 32%;
+    background: #f4f4f4;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    height: 700px;
+}
+
+.board-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.board-header .board-title {
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.board-header .board-sub-title {
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.board-body {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: 86%;
+    overflow-y: scroll;
+}
+
+.board-footer {
+    margin-top: 12px;
+}

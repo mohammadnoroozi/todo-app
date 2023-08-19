@@ -1,0 +1,14 @@
+.header{
+    font-family: 'Inter', sans-serif;
+}
+
+.title {
+    color: "#3A3A3A";
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.sub-title {
+    line-height: 30px;
+    margin-top: 15px;
+}

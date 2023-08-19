@@ -1,0 +1,42 @@
+.task {
+    background: white;
+    color: #3A3A3A;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task textarea {
+    cursor: grab;
+    background-color: #fff;
+    flex: 1;
+    border: none;
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    word-wrap: break-word;
+    resize: none;
+    outline: none;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+textarea::selection {
+    background-color: transparent;
+}
+
+.task .checkbox {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    cursor: pointer;
+}

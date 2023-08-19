@@ -1,0 +1,5 @@
+Header Component
+
+```js
+<Header />
+```
